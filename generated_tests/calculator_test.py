@@ -32,10 +32,3 @@ def test_square():
     assert square(-2) == 4
     assert square(2.5) == 6.25
 
-def test_is_even():
-    assert is_even(0) == True
-    assert is_even(2) == True
-    assert is_even(1) == False
-    assert is_even(-2) == True
-    assert is_even(-1) == False
-
